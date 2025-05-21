@@ -1,0 +1,48 @@
+{
+  "name": "spark-ui",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint:js": "eslint src --ext .ts,.tsx",
+    "lint:scss": "stylelint 'src/**/*.scss'",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,scss,css,json,html}\""
+  },
+  "dependencies": {
+    "moment": "^2.29.4",
+    "rc-pagination": "^5.1.0",
+    "rc-table": "^7.23.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.22.5",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.6.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.49.0",
+    "eslint-plugin-react": "^7.33.1",
+    "html-webpack-plugin": "^5.5.3",
+    "i18next": "^25.2.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "react-i18next": "^15.5.1",
+    "react-refresh": "^0.17.0",
+    "sass": "1.58.3",
+    "sass-loader": "12.6.0",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

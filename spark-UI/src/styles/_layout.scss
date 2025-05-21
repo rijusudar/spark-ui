@@ -1,0 +1,49 @@
+@use "~theme/colors" as *;
+@use '~theme/typography' as *;
+@use "~theme/breakpoints" as *;
+
+* {
+ box-sizing: border-box;
+ scrollbar-color: $alto $wild-sand;
+ scrollbar-width: thin;
+}
+
+body {
+ height: 100%;
+ width: 100%;
+ font-family: "ABBvoice-Regular", sans-serif;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 20px;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ color: $mine-shaft;
+ overscroll-behavior: none;
+
+ @include md-max-w {
+  height: 100%;
+  width: 100%;
+ }
+
+ ::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  /* commented for cross asset analysis additional signal popup */
+  // background-color: $wild-sand;
+ }
+
+ ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px $silver;
+  -webkit-box-shadow: inset 0 0 6px $silver;
+  background-color: $alto;
+ }
+}
+
+#react-app {
+ height: 100%;
+}
+
+:root {
+ --vh: 1vh;
+}

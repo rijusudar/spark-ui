@@ -1,0 +1,104 @@
+// TODO: PLEASE REPLACE THIS WITH SPARK UI
+
+// Font families
+$font-family-regular: "ABBvoice-Regular";
+$font-family-light: "Light-ABBvoice", "Light-Helvetica", Helvetica;
+$font-family-bold: "ABBvoice-Bold";
+$font-family-medium: "ABBvoice-Medium";
+
+// Font sizes
+$font-size-title-xl: 48px;
+$font-size-title-lg: 32px;
+$font-size-text-xl: 28px;
+$font-size-title: 25px;
+$font-size-subtitle: 20px;
+$font-size-text-lg: 16px;
+$font-size-text-md: 14px;
+$font-size-text-sm: 12px;
+$font-size-text-xs: 11px;
+
+@mixin font-light-text-xs {
+    font-family: $font-family-light;
+    font-size: $font-size-text-xs;
+}
+
+@mixin font-light-text-md {
+    font-family: $font-family-light;
+    font-size: $font-size-text-md;
+}
+
+@mixin font-regular-text-sm {
+    font-family: $font-family-regular;
+    font-size: $font-size-text-sm;
+}
+
+@mixin font-regular-text-md {
+    font-family: $font-family-regular;
+    font-size: $font-size-text-md;
+}
+
+@mixin font-regular-text-lg {
+    font-family: $font-family-regular;
+    font-size: $font-size-text-lg;
+}
+
+@mixin font-regular-subtitle {
+    font-family: $font-family-regular;
+    font-size: $font-size-subtitle;
+}
+
+@mixin font-bold-text-md {
+    font-family: $font-family-bold;
+    font-size: $font-size-text-md;
+}
+
+@mixin font-bold-text-lg {
+    font-family: $font-family-bold;
+    font-size: $font-size-text-lg;
+}
+
+@mixin font-bold-subtitle {
+    font-family: $font-family-bold;
+    font-size: $font-size-subtitle;
+}
+
+@mixin font-title-lg {
+    font-family: $font-family-regular;
+    font-size: $font-size-title-lg;
+}
+
+@mixin font-bold-title-lg {
+    font-family: $font-family-bold;
+    font-size: $font-size-title-lg;
+}
+
+@mixin font-medium-text-sm {
+    font-family: $font-family-medium;
+    font-size: $font-size-text-sm;
+}
+
+@mixin font-medium-text-md {
+    font-family: $font-family-medium;
+    font-size: $font-size-text-md;
+}
+
+@mixin font-medium-text-lg {
+    font-family: $font-family-medium;
+    font-size: $font-size-text-lg;
+}
+
+@mixin font-medium-subtitle {
+    font-family: $font-family-medium;
+    font-size: $font-size-subtitle;
+}
+
+@mixin font-medium-title-xl {
+    font-family: $font-family-medium;
+    font-size: $font-size-title-xl;
+}
+
+@mixin font-medium-text-xl {
+    font-family: $font-family-medium;
+    font-size: $font-size-text-xl;
+}
+ 

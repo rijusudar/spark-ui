@@ -1,0 +1,47 @@
+@use '~theme/typography' as *;
+@use '~theme/colors' as *;
+@use '~theme/mixins' as *;
+
+@mixin fixed-column {
+    background-color: white;
+    box-shadow: inset -10px 0 8px -8px $silver-transparent;
+}
+
+@mixin general-table {
+    .rc-table-container {
+        table {
+            .rc-table-thead {
+                border-bottom: 1px solid $black;
+                height: 32px;
+
+                tr {
+                    .rc-table-cell {
+                        .general-table-title {
+                            @include font-medium-text-sm;
+                            line-height: 14px;
+                            align-items: center;
+                            text-transform: uppercase;
+                            color: $dove-gray;
+                        }
+                    }
+                }
+            }
+
+            .rc-table-tbody {
+                .rc-table-row {
+                    height: 40px;
+                    border-bottom: 1px solid $silver;
+                    cursor: auto;
+
+                    .rc-table-cell {
+                        @include font-regular-text-md;
+                        line-height: 20px;
+                        align-items: center;
+                        color: $mine-shaft;
+                    }
+                }
+            }
+        }
+    }
+}
+ 

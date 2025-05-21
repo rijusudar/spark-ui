@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Light-Helvetica";
+    src: url(../fonts/HelveticaNeueeTextPro-Light.eot) format('eot'),
+        url(../fonts/HelveticaNeueeTextPro-Light.ttf) format('truetype'),
+        url(../fonts/HelveticaNeueeTextPro-Light.svg) format('svg'),
+        url(../fonts/HelveticaNeueeTextPro-Light.woff) format('woff');
+}
+
+@font-face {
+    font-family: "ABBvoice-Light";
+    src: url(../fonts/ABBvoice_W_Lt.eot) format('eot'),
+        url(../fonts/ABBvoice_W_Lt.woff) format('woff'),
+        url(../fonts/ABBvoice_W_Lt.woff2) format('oft');
+}
+
+@font-face {
+    font-family: "ABBvoice-Regular";
+    src: url(../fonts/ABBvoice_W_Rg.eot) format('eot'),
+        url(../fonts/ABBvoice_W_Rg.woff) format('woff'),
+        url(../fonts/ABBvoice_W_Rg.woff2) format('otf');
+}
+
+@font-face {
+    font-family: "ABBvoice-Medium";
+    src: url(../fonts/ABBvoice_W_Md.eot) format('eot'),
+        url(../fonts/ABBvoice_W_Md.woff) format('woff'),
+        url(../fonts/ABBvoice_W_Md.woff2) format('otf');
+}
+
+@font-face {
+    font-family: "ABBvoice-Bold";
+    src: url(../fonts/ABBvoice_W_Bd.eot) format('eot'),
+        url(../fonts/ABBvoice_W_Bd.woff) format('woff'),
+        url(../fonts/ABBvoice_W_Bd.woff2) format('oft');
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1;
+}

@@ -1,0 +1,119 @@
+ 
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-tablet: 1024px;
+$screen-xl: 1200px;
+
+//min width, min height
+@mixin md-min-w {
+    @media (min-width: #{$screen-md}) {
+        @content;
+    }
+}
+@mixin lg-min-w {
+    @media (min-width: #{$screen-lg}) {
+        @content;
+    }
+}
+@mixin xl-min-w {
+    @media (min-width: #{$screen-xl}) {
+        @content;
+    }
+}
+@mixin customScreenMinWidth($screen) {
+    @media (min-width: ($screen + 'px')) {
+        @content;
+    }
+}
+@mixin md-min-h {
+    @media (min-height: #{$screen-md}) {
+        @content;
+    }
+}
+@mixin lg-min-h {
+    @media (min-height: #{$screen-lg}) {
+        @content;
+    }
+}
+@mixin xl-min-h {
+    @media (min-height: #{$screen-xl}) {
+        @content;
+    }
+}
+@mixin customScreenMinHeight($screen) {
+    @media (min-height: ($screen + 'px')) {
+        @content;
+    }
+}
+//max width, max height
+@mixin md-max-w {
+    @media (max-width: #{$screen-md}) {
+        @content;
+    }
+}
+@mixin lg-max-w {
+    @media (max-width: #{$screen-lg}) {
+        @content;
+    }
+}
+@mixin lg-max-tablet {
+    @media (max-width: #{$screen-tablet}) {
+        @content;
+    }
+}
+@mixin lg-max-tablet {
+    @media (max-width: #{$screen-tablet}) {
+        @content;
+    }
+}
+@mixin xl-max-w {
+    @media (max-width: #{$screen-xl}) {
+        @content;
+    }
+}
+@mixin customScreenMaxWidth($screen) {
+    @media (max-width: ($screen + 'px')) {
+        @content;
+    }
+}
+@mixin md-max-h {
+    @media (max-height: #{$screen-md}) {
+        @content;
+    }
+}
+@mixin lg-max-h {
+    @media (max-height: #{$screen-lg}) {
+        @content;
+    }
+}
+@mixin xl-max-h {
+    @media (max-height: #{$screen-xl}) {
+        @content;
+    }
+}
+@mixin customScreenMaxHeight($screen) {
+    @media (max-height: ($screen + 'px')) {
+        @content;
+    }
+}
+@mixin customScreenMinWidthAndMinHeight($width, $height) {
+    @media (min-width: ($width + 'px')) and (min-height: ($height + 'px')) {
+        @content;
+    }
+}
+@mixin customScreenMaxWidthAndMaxHeight($width, $height) {
+    @media (max-width: ($width + 'px')) and (max-height: ($height + 'px')) {
+        @content;
+    }
+}
+@mixin customScreenMinWidthAndMaxHeight($width, $height) {
+    @media (min-width: ($width + 'px')) and (max-height: ($height + 'px')) {
+        @content;
+    }
+}
+@mixin customScreenMaxWidthAndMinHeight($width, $height) {
+    @media (max-width: ($width + 'px')) and (min-height: ($height + 'px')) {
+        @content;
+    }
+}
+ 
